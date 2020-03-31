@@ -1,0 +1,5 @@
+fan=input("enter")
+file=open(fan,"r")
+data=file.read()
+print(data)
+file.close()

@@ -1,0 +1,7 @@
+file=open("bank.dat","a")
+id=input("enter id")
+name=input("enter name")
+address=input("enter address")
+balance=input("enter balanced")
+file.write(id+";"+name+";"+address+";"+balance+"\n")
+file.close()
